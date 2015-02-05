@@ -4,11 +4,6 @@ A control to help us put labels in photo,like in and nice.
 ## Screen Shot
 ![Screen Shot](./ScreenShot.png)
 
-## Installation
-### Cocoapods
-	pod 'ImageTipLabel', :git => 'https://github.com/jokefaker/ImageTipLabel.git'
-
-
 ## Usage
 
 ```
