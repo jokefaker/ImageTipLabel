@@ -15,8 +15,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *tipTypeImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *pointImageView;
-@property (nonatomic) ImageTipLabelDirection direction;
-@property (nonatomic, getter=isEditModel) BOOL editModel;// 是否为编辑模式，在编辑模式的时候可以移动和删除自身
+@property (nonatomic) ImageTipLabelDirection direction;// 标签方向，默认ImageTipLabelDirectionRight
+@property (nonatomic, getter=isEditModel) BOOL editModel;// 是否为编辑模式，在编辑模式的时候可以移动和删除自身，默认NO
 
 @property (nonatomic) CGPoint touchesBeginPoint;
 @property (nonatomic) CGRect originFrame;
