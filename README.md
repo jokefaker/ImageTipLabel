@@ -15,7 +15,7 @@ A control to help us put labels in photo,like in and nice.
 	* tipX and tipY is something like this : tipX = whitePoint.center.x/originImage.size.width,it is designed to adapt differenet width/height.
 4. Here is a complete example:
 
-```
+```Objective-C
     // config the background for once
     [ImageTipLabel configTipLabelWithBackgroundImage:[UIImage imageNamed:@"tip_text_bg"]];
     
